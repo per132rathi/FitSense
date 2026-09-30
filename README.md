@@ -1,4 +1,4 @@
-# FitSense AI / FitTrack AI Backend Service
+# AI FitTrack API Backend Service
 
 [![Node.js Version](https://img.shields.io/badge/Node.js-v20%2B-green.svg)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-v4.21-blue.svg)](https://expressjs.com/)
@@ -6,18 +6,18 @@
 [![Google Gemini AI](https://img.shields.io/badge/Google%20Gemini-AI%20SDK-orange.svg)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-ISC-purple.svg)](LICENSE)
 
-A production-grade, secure RESTful backend API for **FitSense AI / FitTrack AI**, a modern intelligent fitness tracking application. Built with Node.js, Express, MongoDB/Mongoose, JWT, bcryptjs, and Google Gemini AI following Model-View-Controller (MVC) architectural best practices.
+A production-grade, secure RESTful backend API for **AI FitTrack API**, a modern intelligent fitness tracking application. Built with Node.js, Express, MongoDB/Mongoose, JWT, bcryptjs, and Google Gemini AI following Model-View-Controller (MVC) architectural best practices.
 
 ---
 
 ## 1. Project Title
-**FitSense AI / FitTrack AI Backend API**
+**AI FitTrack API - Backend API**
 
 ## 2. Project Description
-FitSense AI is a full-featured fitness tracking backend that empowers users to register, log in securely, track their daily workout records, search historical routines, and receive personalized AI recommendations and performance insights powered by Google Gemini AI models.
+AI FitTrack API is a full-featured fitness tracking backend that empowers users to register, log in securely, track their daily workout records, search historical routines, and receive personalized AI recommendations and performance insights powered by Google Gemini AI models.
 
 ## 3. Problem Statement
-Individuals tracking their physical fitness often struggle to maintain consistency due to fragmented workout records, a lack of clear performance analytics, and missing personalized guidance. Standard fitness apps provide static logging without actionable intelligence. FitSense AI solves this problem by pairing secure user workout tracking with Google Gemini AI to analyze user statistics, deliver personalized weekly exercise plans, and produce actionable performance feedback.
+Individuals tracking their physical fitness often struggle to maintain consistency due to fragmented workout records, a lack of clear performance analytics, and missing personalized guidance. Standard fitness apps provide static logging without actionable intelligence. AI FitTrack API solves this problem by pairing secure user workout tracking with Google Gemini AI to analyze user statistics, deliver personalized weekly exercise plans, and produce actionable performance feedback.
 
 ---
 
@@ -87,7 +87,7 @@ The project strictly follows the **Model-View-Controller (MVC)** design pattern 
 
 ## 7. Folder Structure
 ```text
-FitsenseAPI/
+AI-FitTrack-API/
 ├── config/
 │   └── db.js                 # MongoDB database connection setup & fallback
 ├── controllers/
@@ -134,7 +134,7 @@ FitsenseAPI/
 
 1. **Clone the repository / navigate to project root**:
    ```bash
-   cd FitsenseAPI
+   cd AI-FitTrack-API
    ```
 
 2. **Install dependencies**:
